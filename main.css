@@ -295,5 +295,28 @@
     }
 
 }
+@media screen and (min-width:1300px) {
+    .transformame{
+        animation-name: movimiento;
+        animation-iteration-count: infinite;
+        animation-duration: 10s;
+    }
+    
+    @keyframes movimiento{
+    25%{
+        transform: translate(500px);
+    }
+    50%{
+        transform: translate(1000px) ;
+    }
+    75%{
+        transform: translate(500px) ;
+    }
+    100%{
+        transform: translatex(0px);
+        
+    }
+    }
 
+}
 
