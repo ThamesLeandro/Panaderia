@@ -21,12 +21,12 @@
     font-size: 2em;
 }
 .header{
-     background-color: #AD8B73;
+     background-color: #a76739;
      border: solid white 2px;
 
 }
 .card-color{
-       background-color: #AD8B73;
+       background-color: #532300;
        margin: 5px;
        border-radius: 5px;
 }
@@ -48,10 +48,10 @@
     display: grid;
 }
 .footer{
-    background-color: #AD8B73;  
+    background-color: #a76739;  
 }
 .Footer-grid{
-    background-color: #AD8B73;
+    background-color: #a76739;
     display: grid;
     border: solid white;
     grid-template-areas: 
@@ -94,7 +94,7 @@
     align-content: center;
 }
 .grid-art2{
-    background-color: #AD8B73;
+    background-color: #532300;
     display: grid;
     width: 95%;
     border: solid;
@@ -110,7 +110,7 @@
     "cuerpo"
 }
 .grid-art{
-    background-color: #AD8B73;
+    background-color: #532300;
     display: grid;
     border: solid;
     border-radius: 1em;
