@@ -230,6 +230,10 @@
     grid-area: local-f;
 
 }
+.redes{
+    display: flex;
+    text-align: center;
+}
 
 
 @media screen and (min-width:560px) {
