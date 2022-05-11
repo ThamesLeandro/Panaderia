@@ -1,0 +1,89 @@
+/*Inicio de media queries*/
+@media screen and (min-width:560px) {
+    .Footer-grid{
+        display: grid;
+        grid-template-areas: 
+        "f-top f-form f-con"
+        ;
+    }
+   
+}
+@media screen and (min-width:570px) {
+   
+    .grid-art2{
+        display: grid;
+        grid-template-areas: 
+        "titulo titulo"
+        "foto cuerpo"
+    }
+    .grid-contac{
+        display: grid; 
+        grid-template-areas: 
+        "form foto-pan"
+    }
+}
+@media screen and (min-width:768px) {
+   
+    .grid-art{
+        grid-template-areas: 
+        "titulo titulo"
+        "foto cuerpo"
+        "notas notas"
+    }
+}
+@media screen and (min-width:610px) {
+    .grid-pro{
+        display: grid;
+        text-align: center;
+        grid-template-areas: 
+        "Producto-a Producto-b"
+        "Producto-c Producto-d"
+        "Producto-e Producto-f"
+
+    }
+
+}
+@media screen and (min-width:904px) {
+    .grid-pro{
+        display: grid;
+        text-align: center;
+        grid-template-areas: 
+        "Producto-a Producto-b Producto-c"
+        "Producto-d Producto-e Producto-f"
+    }
+    .grid-local{
+        display: grid;
+        margin: 1%;
+        text-align: center;
+        grid-template-areas: 
+        "local-a local-b"
+        "local-c local-d"
+        "local-e local-f"
+    }
+
+}
+@media screen and (min-width:1300px) {
+    .transformame{
+        animation-name: movimiento;
+        animation-iteration-count: infinite;
+        animation-duration: 10s;
+    }
+    
+    @keyframes movimiento{
+    25%{
+        transform: translate(500px);
+    }
+    50%{
+        transform: translate(1000px) ;
+    }
+    75%{
+        transform: translate(500px) ;
+    }
+    100%{
+        transform: translatex(0px);
+        
+    }
+    }
+
+}
+/*Final de media queries*/
