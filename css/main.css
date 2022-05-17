@@ -8538,3 +8538,32 @@ textarea.form-control-lg {
   background-color: #AD8B73; }
 
 /*Final de main*/
+/*Inicio Dulces*/
+.dul-pringles {
+  background-color: #ff0000; }
+
+.dul-gongys {
+  background-color: #008cff; }
+
+.dul-flynn {
+  background-color: #c000f6; }
+
+.dul-popcorn {
+  background-color: #f66f00; }
+
+.boton, .boton-primario {
+  border: solid 2px #bb923b;
+  padding: 8px 16px;
+  margin: 8px;
+  border-radius: 1em; }
+
+.boton-primario {
+  background-color: #e5ff00;
+  border-color: #6fab00;
+  border-radius: 1em; }
+
+.foto-dul {
+  height: 250px;
+  width: 200px; }
+
+/*Final dulces*/

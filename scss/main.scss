@@ -56,3 +56,37 @@ $color-back: #614124;
     background-color: #AD8B73;  
 }
 /*Final de main*/
+/*Inicio Dulces*/
+$dulces: (
+    pringles: #ff0000,
+    gongys:#008cff,
+    flynn:#c000f6,
+    popcorn:#f66f00,
+    );
+    @each $dul, $color in $dulces{
+        .dul-#{$dul}{
+            background-color: $color;
+        }
+    }
+    .boton{
+        border: solid 2px #bb923b;
+        padding:8px 16px;
+        margin: 8px;
+        border-radius: 1em;
+    }
+    .boton-primario{
+        @extend .boton;
+        background-color: #e5ff00;
+        border-color: #6fab00;
+        border-radius: 1em;
+      
+    }
+    @mixin size($alto,$ancho){
+           height: $alto;
+           width: $ancho;
+         }
+         .foto-dul{
+             @include size(250px,200px)
+         }
+
+/*Final dulces*/
